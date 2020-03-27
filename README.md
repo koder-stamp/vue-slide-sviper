@@ -1,4 +1,4 @@
-# ferz-app-front
+# vue-slider-hammer
 
 ## Project setup
 ```
