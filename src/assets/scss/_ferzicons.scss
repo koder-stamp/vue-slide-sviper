@@ -1,0 +1,120 @@
+[class^="fz-"], [class*=" fz-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Ferz-Icon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fz-wallet:before {
+  content: "\e91f";
+}
+.fz-email-open:before {
+  content: "\e924";
+}
+.fz-alert:before {
+  content: "\e933";
+}
+.fz-nfc:before {
+  content: "\e900";
+}
+.fz-home:before {
+  content: "\e901";
+}
+.fz-home-outline:before {
+  content: "\e902";
+}
+.fz-settings:before {
+  content: "\e903";
+}
+.fz-settings-outline:before {
+  content: "\e904";
+}
+.fz-star:before {
+  content: "\e905";
+}
+.fz-star-outline:before {
+  content: "\e906";
+}
+.fz-topup:before {
+  content: "\e907";
+}
+.fz-topup-outline:before {
+  content: "\e908";
+}
+.fz-sort:before {
+  content: "\e909";
+}
+.fz-plus:before {
+  content: "\e90a";
+}
+.fz-escrow:before {
+  content: "\e90b";
+}
+.fz-send-to-mobile:before {
+  content: "\e90c";
+}
+.fz-voucher:before {
+  content: "\e90d";
+}
+.fz-close:before {
+  content: "\e90e";
+}
+.fz-check:before {
+  content: "\e90f";
+}
+.fz-more:before {
+  content: "\e910";
+}
+.fz-menu-up:before {
+  content: "\e911";
+}
+.fz-contact-list:before {
+  content: "\e912";
+}
+.fz-arrow-bold-down:before {
+  content: "\e913";
+}
+.fz-arrow-bold-up:before {
+  content: "\e914";
+}
+.fz-privacy:before {
+  content: "\e915";
+}
+.fz-menu-down:before {
+  content: "\e916";
+}
+.fz-qr-code:before {
+  content: "\e917";
+}
+.fz-poll-box-outline:before {
+  content: "\e918";
+}
+.fz-poll-box:before {
+  content: "\e919";
+}
+.fz-box-search:before {
+  content: "\e91a";
+}
+.fz-arrow-up:before {
+  content: "\e91b";
+}
+.fz-arrow-left:before {
+  content: "\e91c";
+}
+.fz-arrow-right:before {
+  content: "\e91d";
+}
+.fz-arrow-down:before {
+  content: "\e91e";
+}
+.fz-address-book:before {
+  content: "\e944";
+}

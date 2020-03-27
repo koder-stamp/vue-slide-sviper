@@ -1,0 +1,18 @@
+.v-item-group.v-bottom-navigation .v-btn {
+  min-width: 50px;
+  font-size: 11px;
+  line-height: 1;
+  .v-icon.v-icon{
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+}
+
+
+.v-item-group.v-bottom-navigation .v-btn .v-btn__content > *:not(.v-icon) {
+  line-height: 1;
+}
+
+.theme--light.v-bottom-navigation .v-btn:not(.v-btn--active) {
+  color: $secondary !important;
+}

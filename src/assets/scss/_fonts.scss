@@ -1,0 +1,9 @@
+@import "_mixins/font-face";
+
+@include font-face("Poppins", "/fonts/Poppins-Regular/Poppins-Regular");
+@include font-face("Poppins", "/fonts/Poppins-Medium/Poppins-Medium", 500);
+@include font-face("Poppins", "/fonts/Poppins-SemiBold/Poppins-SemiBold", 600);
+
+@include font-face("OCR-A BT", "/fonts/OCR-ABT/OCRAbyBT-Regular");
+@include font-face("Ferz-Icon", "/fonts/ferz-icon/ferz-icon");
+

@@ -1,0 +1,55 @@
+.welcome-screen{
+  .welcome{
+    padding: 15px 15px var(--app-padding);
+    height: 100%;
+    &-logo {
+      display: flex;
+      flex-wrap: wrap;
+      height: 100%;
+      &__wrap {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        margin-top: auto;
+        .logo-image{
+          max-width: 120px;
+          width: var(--logo-width);
+          min-width: 35px;
+        }
+      }
+    }
+    &-title{
+      margin: auto auto 0;
+      font-size: var(--logo-title);
+      color: $white;
+      text-align: center;
+      font-weight: 600;
+    }
+  }
+
+  .phone-input__wrap{
+    margin: auto 0 0;
+    .v-input{
+      font-size: 14px;
+    }
+  }
+
+  .sms-input__wrap{
+    margin: auto 0;
+    .v-input, .v-label{
+      font-size: 14px;
+    }
+  }
+
+  .agreed{
+    margin: auto 0 var(--app-padding);
+    .agreed-checkbox{
+      margin-top: 0;
+      .v-label{
+        font-size: var(--app-font-size-small);
+        line-height: 1.2;
+      }
+    }
+  }
+}
